@@ -1,3 +1,5 @@
+package JavaBaseStudy;
+
 public class Main {
 
     // Ctrl + E	显示最近打开的文件记录列表
