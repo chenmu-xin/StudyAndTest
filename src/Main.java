@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.printf("hello word");
         System.out.println();
+        System.out.println("second");
 
     }
 
