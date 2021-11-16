@@ -7,11 +7,9 @@ public class DdAndEquals {
 
     // 没有覆盖的时候 equals() 是等价于 == 的
     // Object 类 equals() 方法
+    @Override
     public boolean equals(Object obj) {
-        return (this == obj);
+        return super.equals(obj);
     }
-
-
-
 
 }
