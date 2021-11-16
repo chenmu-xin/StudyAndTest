@@ -61,7 +61,11 @@ public class BaseConcept {
      public void setSecond(Object second){ setSecond(LocalDate) second }    // 可见，通过桥方法，利用返回值作为 签名
      **/
 
+    //-------------------------------------------------------------------------------
 
+    // 为了进一步消除泛型的种种限制，提出了通配符
+    // 通配符允许：类型参数发生变化（心理：but 这有什么用？）
+    // 比如 ArrayList<String> 那么就只能使用 String， 不过如果是：ArrayList<?> 呢！
 
 
 }
