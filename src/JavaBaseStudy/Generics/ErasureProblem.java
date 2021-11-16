@@ -1,6 +1,5 @@
 package JavaBaseStudy.Generics;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ErasureProblem {

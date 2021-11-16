@@ -3,7 +3,6 @@ package JavaBaseStudy.Generics;
 import javafx.util.Pair;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class BaseConcept {
