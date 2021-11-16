@@ -7,6 +7,9 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class BaseConcept {
+
+    // -------------------------------------------------------------------------
+
     // 什么是泛型？ 可以表示多种类型的类型，或者说类型的泛化表示
     // 为什么需要泛型？ 为了类型使用的安全
     // 类型使用的安全？怎么不安全了？ 在使用 Object 代表一种类型的时候，可能会“上错花轿嫁错郎“
@@ -51,7 +54,7 @@ public class BaseConcept {
     // 且 类型擦除后，两者签名一致，是如何实现多态的？如下
 
     /**
-     class Classname extends Pair<LocalDate> { 实现 setSecond() 方法 }
+     class Classname extends Pair<LocalDate> { 实现 setSecond( LocalDate localDate )方法 }  // 但 Pair 中也有 setSecond()方法
 
      Pair<LocalDate> pair = new Classname(...);     // 这里实现的是 pair 的子类 classname 对象
      pair.setSecond(aDate);     // 故此处调用的是 classname 的方法，那么经过类型擦除是如何调用的呢？
