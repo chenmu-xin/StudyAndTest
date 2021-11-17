@@ -23,10 +23,9 @@ public class BaseConcept {
     // -------------------------------------------------------------------------
 
     // 什么是类型限定？
-    // 答：可以更广泛的 限定泛化（extends 是一种父限定的概念）
+    // 答：可以更广泛的 限定泛化（extends 只是一种父限定的概念）
     public static <T extends Comparable>T function(T[] a){
         return a[0];
-
     }
     public class classname<T extends Comparable & Serializable> implements Serializable{
 

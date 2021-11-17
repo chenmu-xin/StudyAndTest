@@ -4,7 +4,7 @@ public class HashCodeAndEquals {
     // 什么是 HashCode() 方法？ 他和 equals() 有什么关系
 
     // 多次比较值是非常浪费时间的行为，那么要如何进行解决呢？
-    // 通过 散列表快速定位的特点，即先 hashCode 在 比较值！
+    // 通过 散列表快速定位的特点，即先 hashCode 再 比较值！
     // 比如常用的 HashSet, Hashtable, HashMap ！
 
     // Object 类中的 hashCode 方法
@@ -34,6 +34,9 @@ public class HashCodeAndEquals {
         }
         return hash;
     }
+
+    // 为什么重写 equals() 方法，必须重写 hashcode() 方法
+    // 如果不重写 hashcode() 方法，将无法使用 HashSet, Hashtable, HashMap 存储该对象，因为无法使用 hashcode()方法进行判断
 
 
 }
