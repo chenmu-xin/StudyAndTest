@@ -8,10 +8,12 @@ public class HashCodeAndEquals {
     // 比如常用的 HashSet, Hashtable, HashMap ！
 
     // Object 类中的 hashCode 方法
-/*    @Override
+    /*
+    @Override
     public int hashCode() {
         return super.hashCode();
-    }*/
+    }
+    */
 
     // hashCode() 方法 如何重写？
     // 例如下面是一种拼接计算的方式
