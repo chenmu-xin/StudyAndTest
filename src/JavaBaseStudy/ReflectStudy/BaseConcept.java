@@ -10,7 +10,7 @@ public class BaseConcept {
         this.test = "test";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
         // class 类获取 class or name
         // 虚拟机为每一个管理类型维护一个唯一的 Class 对象
         BaseConcept e = new BaseConcept();
@@ -19,7 +19,8 @@ public class BaseConcept {
         String name = cl.getName();
         System.out.println(" getName(): " + name);
 
-        // Class forname = Class.forName("java.util.Random");
+        Class forname = Class.forName("java.util.Random");
+        System.out.println("forname():" + forname);
 
 
 
