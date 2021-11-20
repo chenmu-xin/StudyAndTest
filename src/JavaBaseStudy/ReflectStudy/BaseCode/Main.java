@@ -33,7 +33,7 @@ public class Main {
             field.setAccessible(true);
             field.set(targetObject, "XiaoHuangHuang");
             /**
-             * 调用 private 方法
+             * 调用 private 方 法
              */
             Method privateMethod = tagetClass.getDeclaredMethod("privateMethod");
             //为了调用private方法我们取消安全检查
