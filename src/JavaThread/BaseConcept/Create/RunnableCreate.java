@@ -1,17 +1,16 @@
-package JavaThread.BaseConcept;
+package JavaThread.BaseConcept.Create;
 
-// 继承
-public class ThreadCreate extends Thread{
-
+// 接口实现
+public class RunnableCreate implements Runnable{
     public static void main(String[] args) {
-        ThreadCreate t1 = new ThreadCreate();
+        Thread t1 = new Thread(new RunnableCreate());
         t1.start();
     }
 
     @Override
     public void run() {
         while(true){
-            System.out.println("task1");
+            System.out.println("runnable");
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
@@ -19,5 +18,4 @@ public class ThreadCreate extends Thread{
             }
         }
     }
-
 }

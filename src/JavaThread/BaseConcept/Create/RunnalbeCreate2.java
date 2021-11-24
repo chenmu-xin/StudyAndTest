@@ -1,4 +1,4 @@
-package JavaThread.BaseConcept;
+package JavaThread.BaseConcept.Create;
 
 // 函数式接口 书写方式
 public class RunnalbeCreate2 {

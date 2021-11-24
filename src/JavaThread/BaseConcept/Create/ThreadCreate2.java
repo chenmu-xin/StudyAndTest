@@ -1,4 +1,4 @@
-package JavaThread.BaseConcept;
+package JavaThread.BaseConcept.Create;
 
 // 匿名内部类
 public class ThreadCreate2 extends Thread{
