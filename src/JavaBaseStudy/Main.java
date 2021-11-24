@@ -7,6 +7,7 @@ public class Main {
     // sout main 自动提示
     // Ctrl + K     本地commit
     // Ctrl + Shift + K     github上进行push
+    // Alt + 回车     报错解决方案
 
     public static void main(String[] args) {
         System.out.printf("hello word");
