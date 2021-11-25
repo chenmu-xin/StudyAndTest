@@ -4,7 +4,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class ReentrantLockStudy implements Runnable {
     // 什么是重入？可以反复的锁多次，同时也需要释放对应的次数
-    // 主要通过 ReentrantLock 的 lock()  and   unlock()   来实现
+    // 主要通过 ReentrantLock 的  lock()  and   unlock()   来实现
     public static ReentrantLock lock = new ReentrantLock();
     public static int i = 0;
 
