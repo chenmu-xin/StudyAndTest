@@ -5,6 +5,7 @@ package JavaThread.BaseConcept.Lock;
 public class SynchronizedStudy1 implements Runnable {
     static SynchronizedStudy1 instance = new SynchronizedStudy1();
     static int i = 0;
+
     @Override
     public void run() {
         for(int j = 0 ; j < 100000 ; j++){
